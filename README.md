@@ -1,2 +1,0 @@
-# Geolab
-Geolab Tasks
