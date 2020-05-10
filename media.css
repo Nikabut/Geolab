@@ -24,7 +24,7 @@
     .services {
         display: block;
         align-items: center;
-        margin-left: 130px;
+        /* margin-left: 130px; */
     }
     .col1 {
         margin-left: 2px;
@@ -37,13 +37,15 @@
         width: 250px;
     }
     .achieve {
-        margin-left: 190px;
+        /* margin-left: 190px; */
     }
     .packages {
         display: block;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .watch {
-        margin-left: 120px;
+        /* margin-left: 120px; */
     }
     footer {
         display: block;
