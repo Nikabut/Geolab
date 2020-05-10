@@ -5,7 +5,7 @@
 }
 @media (max-width: 600px) {
     header {
-        padding-top: 5px;
+        padding-top: 0px;
     }
     .panel>ul {
         flex-direction: column;
@@ -13,8 +13,11 @@
     }
     .p {
         margin-right: 5px;
-        margin-top: 5px;
+        margin-top: 3px;
         font-size: 10px;
+    }
+    .slider {
+        height: 150px;
     }
     .logo {
         padding-top: 15px;
@@ -24,18 +27,29 @@
     .services {
         flex-direction: column;
         text-align: center;
+        margin-top: 30px;
         /* margin-left: 130px; */
     }
     .col1 {
         margin-left: 2px;
         margin-right: 2px;
     }
+    .col2 {
+        margin-top: 50px;
+    }
+    .col3 {
+        margin-top: 50px;
+    }
+    .col4 {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
     .video {
         width: 10px;
     }
     .youtube {
         width: 250px;
-        margin-left: 130px;
+        margin-left: 60px;
     }
     .achieve {
         /* margin-left: 190px; */
@@ -45,13 +59,28 @@
         margin-left: 2px;
         margin-right: 2px;
     }
+    .x {
+        margin-top: 50px;
+    }
     .watch {
         /* margin-left: 120px; */
+    }
+    .ac {
+        margin-right: 20px;
+    }
+    .ac>h3 {
+        font-size: 16px;
+    }
+    .ac>p {
+        font-size: 8px;
     }
     footer {
         flex-direction: column;
     }
     .input {
+        width: 150px;
+    }
+    .foot {
         width: 150px;
     }
     .first {
@@ -60,9 +89,6 @@
     .second {
         margin-top: 30px;
         padding-left: 0px;
-    }
-    .js {
-        margin-left: 90px;
     }
     .slider {
         padding-top: 10px;
