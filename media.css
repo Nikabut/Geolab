@@ -35,6 +35,7 @@
     }
     .youtube {
         width: 250px;
+        margin-left: 130px;
     }
     .achieve {
         /* margin-left: 190px; */
@@ -49,6 +50,9 @@
     }
     footer {
         flex-direction: column;
+    }
+    .input {
+        width: 150px;
     }
     .first {
         flex-direction: column;
