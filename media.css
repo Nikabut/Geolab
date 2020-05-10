@@ -1,8 +1,11 @@
+
 @media (max-width: 1100px) {
     .panel>ul {
         margin-left: 50px;
     }
 }
+
+
 @media (max-width: 600px) {
     header {
         padding-top: 0px;
@@ -23,6 +26,8 @@
         padding-top: 15px;
     }
 }
+
+
 @media (max-width: 600px) {
     .services {
         flex-direction: column;
@@ -36,13 +41,19 @@
     }
     .col2 {
         margin-top: 50px;
+        margin-right: 0px;
     }
     .col3 {
         margin-top: 50px;
+        margin-right: 0px;
     }
     .col4 {
         margin-right: 30px;
         margin-top: 50px;
+        margin-right: 0px;
+    }
+    .abs {
+        left: 80px;
     }
     .video {
         width: 10px;
@@ -53,6 +64,8 @@
     }
     .achieve {
         /* margin-left: 190px; */
+        margin-left: 10px;
+        margin-right: 0px;
     }
     .packages {
         flex-direction: column;
@@ -60,7 +73,10 @@
         margin-right: 2px;
     }
     .x {
-        margin-top: 50px;
+        margin-top: 90px;
+    }
+    .pir {
+        margin-top: 10px;
     }
     .watch {
         /* margin-left: 120px; */
