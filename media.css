@@ -89,6 +89,13 @@
     .x {
         width: 270px;
     }
+    .packages {
+        flex-direction: column;
+        align-items: center;
+    }
+    .x {
+        margin-top: 40px;
+    }
     footer {
         padding-left: 20px;
     }
@@ -230,19 +237,23 @@
     .col1 {
         margin-left: 2px;
         margin-right: 2px;
+        flex-direction: column;
     }
     .col2 {
         margin-top: 50px;
         margin-right: 0px;
+        flex-direction: column;
     }
     .col3 {
         margin-top: 50px;
         margin-right: 0px;
+        flex-direction: column;
     }
     .col4 {
         margin-right: 30px;
         margin-top: 50px;
         margin-right: 0px;
+        flex-direction: column;
     }
     .abs {
         left: 80px;
