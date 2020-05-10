@@ -7,6 +7,7 @@ body {
     left: 0%;
     right: 0%;
     z-index: 1;
+    width: 100%;
 }
 header {
     padding-top: 25px;
@@ -17,6 +18,7 @@ header {
 }
 .js {
     padding-top: 85px;
+    width: 100%;
 }
 .panel {
     display: flex;
@@ -43,9 +45,12 @@ header {
 }
 .slider {
     background-image: url(images/banner.jpg);
-    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 360px;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 200px;
     color: white;
     font-family: Arial;
     font-size: 78.74px;
@@ -128,10 +133,13 @@ header {
 .text>h2 {
     font-size: 26px;
 }
-
 .video {
     margin-top: 80px;
     text-align: center;
+}
+.youtube {
+    width: 390px;
+    height: 215px;
 }
 .achieve {
     display: flex;
@@ -258,3 +266,4 @@ input:focus {
 .submit {
     background-color: #11C1D4;
 }
+
